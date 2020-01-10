@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Progress</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        .progress {
+            height: 10px;
+            border-radius: 2px;
+            background-color: royalblue;
+            animation: progress 5s ease-in-out forwards;
+        }
+        @keyframes progress {
+            from {
+                width: 0vw;
+            }
+            to {
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; width: 100%; padding: 25px;">
+        <div class="progress" />
+    </div>
+</body>
+</html>
