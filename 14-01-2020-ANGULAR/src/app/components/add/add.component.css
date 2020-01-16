@@ -1,0 +1,5 @@
+div.add-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

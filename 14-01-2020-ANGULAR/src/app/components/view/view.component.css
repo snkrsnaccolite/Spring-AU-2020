@@ -1,0 +1,21 @@
+div.users-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.user-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.user-container a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: royalblue;
+}
+div.user-container a:hover {
+    color: blue;
+}

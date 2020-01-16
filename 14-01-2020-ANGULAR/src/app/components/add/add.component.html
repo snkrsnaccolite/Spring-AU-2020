@@ -1,0 +1,23 @@
+<main>
+    <h2>Add User</h2>
+
+    <div class="add-user-container">
+        <form [formGroup]="profileForm">
+            <div>
+                <input type="text" formControlName="username" placeholder="Username" required />
+            </div>
+
+            <div>
+                <input type="email" formControlName="email" placeholder="Email" required />
+            </div>
+
+            <div>
+                <input type="url" formControlName="website" placeholder="Website" />
+            </div>
+        </form>
+
+        <div>
+            <button (click)="saveUser()">Save</button>
+        </div>
+    </div>
+</main>
