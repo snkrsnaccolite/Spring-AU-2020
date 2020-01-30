@@ -1,0 +1,6 @@
+one/traction/models/Employee.class
+one/traction/testapp/App.class
+one/traction/services/EmployeeManager.class
+one/traction/config/AppConfig.class
+one/traction/aspects/EmployeeAspect.class
+one/traction/models/Point.class
